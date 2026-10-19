@@ -1,0 +1,5 @@
+This code is adapted from ADVENT, Copyright 2019 Valeo.
+https://github.com/valeoai/ADVENT
+
+ADVENT also builds on AdaptSegNet and Pytorch-Deeplab.
+The DeepLabV2 implementation is retained with ForeCASS-specific changes.
