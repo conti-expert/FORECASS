@@ -1,0 +1,10 @@
+torch==2.1.0
+torchvision==0.16.0
+numpy==1.26.4
+Pillow>=9.1
+PyYAML>=6
+tqdm>=4.64
+kornia==0.7.2
+segmentation-models-pytorch==0.3.3
+huggingface-hub>=0.23,<1
+six>=1.16

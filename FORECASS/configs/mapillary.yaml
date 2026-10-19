@@ -1,0 +1,32 @@
+seed: 1234
+workers: 4
+output_dir: runs/mapillary
+verification_backbone: resnet101
+dataset:
+  root: data/Mapillary
+  train_manifest: manifests/mapillary_train.csv
+  val_manifest: manifests/mapillary_val.csv
+  size:
+  - 640
+  - 320
+training:
+  iterations: null
+  lr_max_iterations: null
+  learning_rate: 0.00025
+  lr_power: 0.9
+  momentum: 0.9
+  weight_decay: 0.0005
+  batch_size: 4
+  ema_alpha: 0.999
+  distill_temperature: 2.0
+  distill_weight: 1.0e-05
+  consistency_weight: 1.0
+  consistency_pairs: 512
+  strong_transform: true
+  blur: true
+  color_jitter_strength: 0.25
+  evaluate_every: 1000
+  save_every: 1000
+  log_every: 50
+  pseudo_refresh_every: null
+  color_jitter_probability: 0.2

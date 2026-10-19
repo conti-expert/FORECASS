@@ -1,0 +1,19 @@
+seed: 42
+workers: 12
+root: data/GTA5
+train_manifest: manifests/verification_train.csv
+val_manifest: manifests/verification_val.csv
+output_dir: runs/verification
+size:
+- 640
+- 320
+mask_format: ids
+backbone: resnet101
+encoder_weights: imagenet
+epochs: 50
+batch_size: 16
+learning_rate: 1.0e-05
+focal_alpha: 0.25
+focal_gamma: 2.0
+color_jitter_strength: 0.25
+color_jitter_probability: 0.2

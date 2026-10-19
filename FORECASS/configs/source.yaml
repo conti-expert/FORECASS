@@ -1,0 +1,18 @@
+seed: 1234
+workers: 4
+output_dir: runs/source
+dataset:
+  root: data/GTA5
+  train_manifest: manifests/gta5_train.csv
+  val_manifest: null
+  size:
+  - 640
+  - 320
+training:
+  learning_rate: 0.00025
+  lr_power: 0.9
+  momentum: 0.9
+  weight_decay: 0.0005
+  batch_size: 4
+  evaluate_every: 1000
+  save_every: 1000
