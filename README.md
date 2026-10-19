@@ -142,4 +142,4 @@ python offline_validation.py
 
 ## Acknowledgements
 
-The code is adapted from [ADVENT](https://github.com/valeoai/ADVENT). The verification model uses [segmentation_models.pytorch](https://github.com/qubvel-org/segmentation_models.pytorch). Upstream attribution is retained in `LICENSE` and `NOTICE`.
+The code is adapted from [ADVENT](https://github.com/valeoai/ADVENT). The verification model uses [segmentation_models.pytorch](https://github.com/qubvel-org/segmentation_models.pytorch). ADVENT-derived code remains under Apache 2.0; its license and attribution are retained in `LICENSE-ADVENT` and `FORECASS/NOTICE`.
