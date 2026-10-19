@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+.idea/
+.vscode/
+data/
+manifests/
+runs/
+pretrained_models/
+*.pth
+*.pt
+*.ckpt
+*.zip
+*.rar
+evaluation.json
